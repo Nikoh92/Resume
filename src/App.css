@@ -1,0 +1,351 @@
+.App {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 80px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App-about {
+  padding: 100px 0;
+  color: white;
+  height: 100vh;
+  background-color: rgba(38, 42, 53, 0.76);
+  filter: opacity(100%);
+}
+
+.App-right {
+  background-color: rgba(38, 42, 53, 0.76);
+  filter: opacity(100%);
+  color: white;
+  min-height: 100vh;
+}
+
+.App-left {
+  background-color: rgba(0, 0, 0, 0.7);
+  filter: opacity(100%);
+  color: white;
+  min-height: 100vh;
+}
+
+.navbar-inverse {
+  background: transparent none !important;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.custom-footer {
+  width: 100%;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.navbar-inverse .navbar-toggle:active {
+  background-color: rgba(100, 149, 237, 0.9);
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(100, 149, 237, 0.9);
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-collapse {
+  background-color: rgba(63, 66, 74, 0.97);
+  border-color: transparent;
+}
+
+.menu-item:hover {
+  color: coral;
+}
+
+.background-image-style {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+
+  display: block;
+  background: url("assets/background3.jpeg") center;
+  background-size: cover;
+  height: 100vh;
+  filter: opacity(80%);
+}
+
+.linkedin {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  width: 40px;
+}
+
+.github {
+  position: absolute;
+  bottom: 5px;
+  right: 60px;
+  width: 40px;
+}
+.twitter {
+  position: absolute;
+  bottom: 5px;
+  right: 60px;
+  width: 40px;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.me {
+  font-size: 35pt;
+  font-weight: 200;
+  margin-top: 25px;
+}
+
+.hidiho {
+  font-size: 35pt;
+  font-weight: 200;
+}
+
+.profile-picture {
+  width: 275px;
+  padding: 10px;
+  border: 1px solid cornsilk;
+}
+
+.description {
+  font-weight: 200;
+  font-size: 20pt;
+  margin-bottom: 50px;
+}
+
+.skill-type {
+  text-align: left;
+  margin-bottom: 30pt;
+  font-size: 35pt;
+  font-weight: 200;
+  color: lightcoral;
+  cursor: pointer;
+}
+
+.skill-type:hover {
+  color: coral;
+}
+
+.div-skill {
+  margin-bottom: 25px;
+}
+
+.links {
+  width: 150px;
+  padding: 20px;
+}
+
+#education-style {
+  font-weight: 200;
+  font-size: 40pt;
+  margin: 40px 0;
+  padding-left: 22px;
+  text-align: left;
+}
+
+#school {
+  padding-left: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  text-align: left;
+}
+
+#item-name {
+  font-size: 30pt;
+  color: lightcoral;
+}
+
+#item-name:hover {
+  color: coral;
+}
+
+#image {
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+#description-text {
+  text-align: justify;
+}
+
+#experience-style {
+  font-weight: 200;
+  font-size: 40pt;
+  margin: 40px 0;
+  padding-right: 22px;
+  text-align: right;
+}
+
+#company {
+  padding-right: 10px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  text-align: right;
+}
+
+#skills {
+  font-weight: 200;
+  font-size: 40pt;
+  margin: 40px 0;
+  padding-left: 15px;
+  text-align: left;
+}
+
+#skill-style {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+small {
+  margin-top: 25px;
+}
+
+a {
+  color: lightcoral;
+  cursor: pointer;
+}
+
+a:hover {
+  font-weight: 900;
+}
+
+@supports (-ms-ime-align: auto) {
+  .background-image-style {
+    filter: opacity(0%);
+    z-index: -1;
+  }
+
+  .App-about {
+    min-height: 100vh;
+  }
+
+  .centered {
+    position: static;
+    transform: translate(0%, 25%);
+  }
+}
+
+@media (max-width: 331px) {
+  .hidiho {
+    font-size: large;
+    margin-top: 15px;
+  }
+
+  .skill-type {
+    font-size: large;
+  }
+
+  .me {
+    font-size: large;
+    margin-top: 15px;
+  }
+
+  .links {
+    width: 125px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .navbar-inverse .navbar-collapse {
+    background-color: rgba(100, 149, 237, 0.95);
+    border-color: rgba(100, 149, 237, 0.9);
+  }
+
+  .navbar-inverse .navbar-nav>li>a {
+    font-weight: 300;
+  }
+
+  .linkedin {
+    top: 5px;
+    left: 6px;
+    width: 40px;
+  }
+
+  .github {
+    top: 5px;
+    left: 50px;
+    width: 40px;
+  }
+
+  .hidiho {
+    font-size: x-large;
+  }
+
+  .skill-type {
+    font-size: x-large;
+  }
+
+  .me {
+    font-size: x-large;
+  }
+
+  .profile-picture {
+    width: 150px;
+    border: 2px solid cornsilk;
+  }
+
+  .description {
+    font-size: 15pt;
+  }
+
+  #company {
+    margin-bottom: 20px;
+  }
+
+  #school {
+    margin-bottom: 20px;
+  }
+
+  #item-name {
+    font-size: 20pt;
+  }
+}
+
+@media (max-width: 991px) {
+  #image {
+    width: 200px;
+  }
+
+  #skill-style {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .hidiho {
+    font-size: xx-large;
+  }
+
+  .skill-type {
+    font-size: xx-large;
+  }
+
+  .me {
+    font-size: xx-large;
+  }
+}
