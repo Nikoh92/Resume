@@ -10,7 +10,7 @@ class About extends Component {
       <ScrollableAnchor id={'about'}>
         <div className="App-about">
           <div className="centered">
-            <img alt="Mederic" src={Nico} className="img-circle profile-picture" />
+            <img alt="CV" src={Nico} className="img-circle profile-picture" />
             <div className="me"><b>Nicolas HELIE</b> !</div>
             <h4>Developpeur Front-End React </h4>
           </div>

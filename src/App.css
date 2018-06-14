@@ -285,6 +285,11 @@ a:hover {
     left: 6px;
     width: 40px;
   }
+  .twitter {
+    top: 5px;
+    left: 46px;
+    width: 40px;
+  }
 
   .github {
     top: 5px;
