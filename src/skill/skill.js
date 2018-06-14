@@ -39,10 +39,6 @@ class Skill extends Component {
           image: "devicon-nodejs-plain colored"
         },
         {
-          name: "PHP",
-          image: "devicon-php-plain colored"
-        },
-        {
           name: "React JS",
           image: "devicon-react-original colored"
         },
