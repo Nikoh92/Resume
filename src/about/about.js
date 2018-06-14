@@ -12,7 +12,7 @@ class About extends Component {
           <div className="centered">
             <img alt="Mederic" src={Nico} className="img-circle profile-picture" />
             <div className="me"><b>Nicolas HELIE</b> !</div>
-            <h4>Developpeur Full stack chez INFOTEL </h4>
+            <h4>Developpeur React </h4>
           </div>
         </div>
       </ScrollableAnchor>

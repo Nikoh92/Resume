@@ -11,7 +11,7 @@ import Github from '../assets/github.png';
 import Facebook from '../assets/facebook.png';
 import Pdf from '../assets/pdf.png';
 
-import Resume from '../assets/cv_hn.pdf';
+import Resume from '../assets/CV_HELIE_Nicolas.pdf';
 
 class Contact extends Component {
 

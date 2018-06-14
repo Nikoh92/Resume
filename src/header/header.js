@@ -25,7 +25,7 @@ class Header extends Component {
                   <a title="About" onClick={() => goToAnchor('about')}>About</a>
                 </li>
                 <li className="menu-item">
-                  <a title="Education" onClick={() => goToAnchor("education")}>Education</a>
+                 <a title="Education" onClick={() => goToAnchor("education")}>Education</a>
                 </li>
                 <li className="menu-item">
                   <a title="Experience" onClick={() => goToAnchor("experience")}>Experience</a>
